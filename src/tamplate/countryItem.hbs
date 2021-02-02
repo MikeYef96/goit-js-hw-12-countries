@@ -1,16 +1,16 @@
 {{#each this}}
-<li class="country-info">
-    <div class="country__container">
-        <h3 class="name">{{name}}</h3>
-        <h4 class="capital">
+<li class="countries-item">
+    <div class="countries__container">
+        <h2 class="country__name">{{name}}</h2>
+        <h3 class="countries__capital">
             Capital: <span>{{capital}}</span>
-        </h4>
-        <h4 class="population">
+        </h3>
+        <h3 class="countries__population">
             Population: <span>{{population}}</span>
-        </h4>
-        <ul class="languages-list">Languages:
+        </h3>
+        <ul class="countries__languages-list">Languages:
             {{#each languages}}
-            <li class="languages">
+            <li class="countries__languages">
                 {{this.name}}
             </li>
             {{/each}}

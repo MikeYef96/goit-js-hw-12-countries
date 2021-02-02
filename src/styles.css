@@ -9,7 +9,10 @@ html {
 }
 
 body {
-  background-image: url('./img/bg-pattern.png');
+  height: 100vh;
+  /* background-image: url('./img/bg-pattern.png'); */
+  background: linear-gradient(to top left, powderblue, pink);
+  background-repeat: no-repeat;
 }
 
 ul {
@@ -22,7 +25,7 @@ ul {
   align-items: center;
 }
 
-.country__container {
+.countries__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +36,7 @@ ul {
   height: 40px;
 }
 
-.country-info {
+.countries-item {
   display: flex;
   justify-content: center;
 }
